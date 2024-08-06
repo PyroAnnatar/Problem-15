@@ -14,7 +14,7 @@ export default function CardDetails() {
     const { name, value } = e.target;
     setCard((prev) => ({ ...prev, [name]: value }));
   }
-  console.log(card);
+
   return (
     <div className="py-4 max-w-sm mx-auto">
       <fieldset>
